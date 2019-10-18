@@ -1,0 +1,164 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	background: linear-gradient(-45deg,#7F00FF,#E100FF);
+	background-size: 400% 400%;
+	animation: gradientBG 5s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white !important;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+.jumbotron{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 515px;
+    margin-top: -75px;
+}
+
+.jumbotron .display-4{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+.img1{
+    max-width: 450px;
+    margin-left: 90px;
+}
+
+.about{
+    background-color: white;
+    margin-top: -35px;
+    height: 70vh;
+}
+
+.text1{
+    margin-top: 40px;
+}
+.text1 h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #7F00FF;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.text1 p{
+    font-family: 'Montserrat', sans-serif;
+    color: #7F00FF;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.daftar{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.form{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form p{
+    font-family: 'Montserrat', sans-serif;
+    color: #7F00FF;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.btn{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+    margin-top: 50px;  
+}
+
+.btn:hover{ background-position: right center;};
+
+.table{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.imgdata{
+    max-width: 500px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.data{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+.textdata p{
+    font-family: 'Montserrat', sans-serif;
+    color: #7F00FF;
+    font-weight: 900;
+    font-size: 20px;
+}
+.textdata h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #7F00FF;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.btnlogin{
+    height: 40px;
+}
+
+.formupdate{
+    color: white;
+}
